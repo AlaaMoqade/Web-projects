@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Customer Registration Form</title>
+  
+  
+</head>
+
+
+<body>
+     <img src="we2.png" alt="WonderGoods Store" width="1320" height="250">
+  <h1>Customer Registration Form</h1>
+  
+  <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+    <h2>____Personal Information__________________________________</h2>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" required><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="059-111-2345"><br><br>
+    <h2>____Address_______________________________________________</h2>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br><br>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required><br><br>
+    <label for="postalCode">Postal Code:</label>
+    <input type="text" id="postalCode" name="postalCode" required><br><br>
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="">Select your country</option>
+       <option value="Pa">Palestine</option>
+      <option value="US">United States</option>
+      <option value="Jo">Jordan</option>
+      <option value="SU">Saudi Arabia</option>
+      <option value="Eg">Egypt</option>
+    </select><br><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <form action="http://web1211910.studentprojects.ritaj.ps/Assignments/ass1/store.html" method="post">
+    <input type="submit" value="Home">
+  </form>
+  
+</body>
+
+</html>
